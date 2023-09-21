@@ -3,11 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QullAcademy</title>
+    <title>Navbar con Bootstrap 5</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <!-- Agrega los enlaces a los archivos CSS y JavaScript de Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    
-HOla! comenzamos! 
 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Mi Sitio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Productos</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Cursos
+                    </a>
+                    <ul class="dropdown-menu multi-column menuCollapsed" aria-labelledby="navbarDropdown">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="dropdown-item">
+                                        <a class="nav-link" href="#">Curso 1uyutyteryetretyt</a>
+                                    </div>
+                                    <div class="dropdown-item">
+                                        <a class="nav-link" href="#">Curso 2tyetrtyetytyy</a>
+                                    </div>
+                                    <div class="dropdown-item">
+                                        <a class="nav-link" href="#">Curso 3ytryyytytyt</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="dropdown-item">
+                                        <a class="nav-link" href="#">Curso 4yytryeytreyrteytry</a>
+                                    </div>
+                                    <div class="dropdown-item">
+                                        <a class="nav-link" href="#">Curso 5yytrytreytrytytyy</a>
+                                    </div>
+                                    <div class="dropdown-item">
+                                        <a class="nav-link" href="#">Curso 6yrtytreytreytreytryr</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="dropdown-item">
+                                        <a class="nav-link" href="#">Curso 7</a>
+                                    </div>
+                                    <div class="dropdown-item">
+                                        <a class="nav-link" href="#">Curso 8</a>
+                                    </div>
+                                    <div class="dropdown-item">
+                                        <a class="nav-link" href="#">Curso 9</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="dropdown-item">
+                                        <a class="nav-link" href="#">Curso 10</a>
+                                    </div>
+                                    <div class="dropdown-item">
+                                        <a class="nav-link" href="#">Curso 11</a>
+                                    </div>
+                                    <div class="dropdown-item">
+                                        <a class="nav-link" href="#">Curso 12</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Agrega el enlace al archivo JavaScript de Bootstrap 5 (opcional) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
