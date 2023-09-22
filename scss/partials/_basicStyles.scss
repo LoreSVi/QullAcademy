@@ -1,0 +1,18 @@
+
+/* Muestra el menú cuando está abierto */
+.navbar-colors{
+    background-color: map-get($paleta_colores,background_primary_color ) !important; ;
+}
+.menuCollapsed{
+    width: 215vh;
+    left: -220px !important;
+    top: 50px !important;
+} 
+.navbar-collapse.show {
+    left: -200; /* Muestra el menú ajustando la posición a 0 */
+}
+
+.logoWhatsApp {
+    z-index: 1000;
+    bottom: 150px !important;
+}

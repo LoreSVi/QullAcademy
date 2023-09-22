@@ -12,7 +12,7 @@
 .menuCollapsed {
   width: 215vh;
   left: -220px !important;
-  top: 50px !important;
+  top: 150px !important;
 }
 
 .navbar-collapse.show {
@@ -30,6 +30,4 @@
     left: 0px !important;
     top: 0px !important;
   }
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
