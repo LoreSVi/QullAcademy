@@ -9,7 +9,11 @@
     left: -200; /* Muestra el menú ajustando la posición a 0 */
 }
 
-/* Personaliza otros estilos según tus necesidades */
+.logoWhatsApp {
+    z-index: 2;
+    bottom: 150px !important;
+}
+
 @media (max-width: 991px) {
     .menuCollapsed{
         width: 100%;
