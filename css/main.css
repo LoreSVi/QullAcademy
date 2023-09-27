@@ -6,7 +6,7 @@
 /*Map que Define la Paleta de Colores del Proyecto - Ver basics.scss*/
 /* Muestra el menú cuando está abierto */
 .navbar-colors {
-  background-color: #f5760f !important;
+  background-color: #f50ff5 !important;
 }
 
 .menuCollapsed {
@@ -22,6 +22,22 @@
 .logoWhatsApp {
   z-index: 1000;
   bottom: 150px !important;
+}
+
+footer {
+  padding: 10px 60px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(208, 203, 209);
+}
+footer a {
+  text-decoration: none;
+  display: block;
+  color: rgb(51, 20, 255);
+  font-size: 0.8rem;
+  margin-bottom: 4px;
 }
 
 @media (max-width: 991px) {
