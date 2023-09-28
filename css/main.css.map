@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sourceRoot":"","sources":["../scss/main.scss","../scss/partials/_variables.scss","../scss/partials/_maps.scss","../scss/partials/_basicStyles.scss","../scss/partials/_breackpoints.scss"],"names":[],"mappings":";AAAA;ACAA;ACAA;AACA;AAOA;ACRA;AACA;EACE;;;AAKF;EACE;EACA;EACA;;;AAEF;EACE;;;AAGF;EACE;EACA;;;AAGF;EACE;EACA;EACA;EACA;EACA;EACA;;AACA;EACE;EACA;EACA;EACA;EACA;;;AC/BJ;EACI;IACI;IACA;IACA","file":"main.css"}
+=======
+{"version":3,"sourceRoot":"","sources":["../scss/main.scss","../scss/partials/_variables.scss","../scss/partials/_maps.scss","../scss/partials/_basicStyles.scss","../scss/partials/_breackpoints.scss"],"names":[],"mappings":";AAAA;ACAA;ACAA;AACA;AAOA;ACRA;AAEA;EACE;;;AAKF;EACE;EACA;EACA;;;AAEF;EACE;;;AAGF;EACE;EACA;EACA;;;AAGF;EACE,kBFtByB;;AEuBzB;EACE;;;AAIJ;EACE;EACA;;;AAGF;EACE;EACA;EACA;EACA;EACA;EACA,kBFnCY;EEoCZ,OFnCkB;;AEoClB;EACE;EACA;EACA;EACA;EACA;;;AC9CJ;EACI;IACI;IACA;IACA","file":"main.css"}
+>>>>>>> Lore
