@@ -1,8 +1,9 @@
 /* Muestra el menú cuando está abierto */
+
 .navbar-colors {
   background-color: map-get(
     $paleta_colores,
-    background_primary_color
+    background_secondary_color
   ) !important;
 }
 .menuCollapsed {
@@ -12,6 +13,19 @@
 }
 .navbar-collapse.show {
   left: -200; /* Muestra el menú ajustando la posición a 0 */
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logopag {
+  background-color: $background_primary_color;
+  img {
+    border-radius: 10%;
+  }
 }
 
 .logoWhatsApp {
@@ -25,11 +39,12 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(208, 203, 209);
+  background-color: $footer_color;
+  color: $footer_font_color;
   a {
     text-decoration: none;
     display: block;
-    color: rgb(51, 20, 255);
+    color: rgb(255, 20, 243);
     font-size: 0.8rem;
     margin-bottom: 4px;
   }
