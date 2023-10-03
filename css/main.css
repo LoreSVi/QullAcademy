@@ -6,7 +6,7 @@
 /*Map que Define la Paleta de Colores del Proyecto - Ver basics.scss*/
 /* Muestra el menú cuando está abierto */
 .navbar-colors {
-  background-color: white !important;
+  background-color: #d63384 !important;
 }
 
 .menuCollapsed {
@@ -27,6 +27,7 @@
 
 .logopag {
   background-color: #d63384;
+  background-size: cover;
 }
 .logopag img {
   border-radius: 10%;

@@ -1,9 +1,8 @@
 /* Muestra el menú cuando está abierto */
-
 .navbar-colors {
   background-color: map-get(
     $paleta_colores,
-    background_secondary_color
+    background_primary_color
   ) !important;
 }
 .menuCollapsed {
@@ -23,6 +22,7 @@
 
 .logopag {
   background-color: $background_primary_color;
+  background-size: cover;
   img {
     border-radius: 10%;
   }
