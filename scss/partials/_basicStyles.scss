@@ -1,16 +1,15 @@
 /* Muestra el menú cuando está abierto */
-.navbar{
+.navbar {
   padding-top: 0px !important;
-  padding-bottom: 0px !important; 
+  padding-bottom: 0px !important;
 }
-.nav-link{
-  color: antiquewhite !important;
+.nav-link {
+  color: azure !important;
 }
-.nav-link:hover{
+.nav-link:hover {
   text-decoration: underline;
-  color: gold!important;
+  color: gold !important;
 }
-
 .navbar-colors {
   background-color: map-get(
     $paleta_colores,
@@ -46,11 +45,13 @@
   bottom: 150px !important;
 }
 
+  
+
 footer {
   padding: 10px 60px;
   margin-top: 10px;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   background-color: $footer_color;
   color: $footer_font_color;
