@@ -1,18 +1,68 @@
-
 /* Muestra el menú cuando está abierto */
-.navbar-colors{
-    background-color: map-get($paleta_colores,background_primary_color ) !important; ;
+.navbar {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
 }
-.menuCollapsed{
-    width: 215vh;
-    left: -220px !important;
-    top: 50px !important;
-} 
+.nav-link {
+  color: azure !important;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  color: gold !important;
+}
+.navbar-colors {
+  background-color: map-get(
+    $paleta_colores,
+    background_primary_color
+  ) !important;
+}
+
+
+.menuCollapsed {
+  width: 215vh;
+  left: -220px !important;
+  top: 50px !important;
+}
 .navbar-collapse.show {
-    left: -200; /* Muestra el menú ajustando la posición a 0 */
+  left: -200; /* Muestra el menú ajustando la posición a 0 */
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logopag {
+  background-color: $background_primary_color;
+  background-size: cover;
+  img {
+    border-radius: 10%;
+  }
 }
 
 .logoWhatsApp {
-    z-index: 1000;
-    bottom: 150px !important;
+  z-index: 1000;
+  bottom: 150px !important;
+}
+
+h2{
+  text-align: center;
+}
+
+footer {
+  padding: 10px 60px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $footer_color;
+  color: $footer_font_color;
+  a {
+    text-decoration: underline;
+    display: block;
+    color: rgb(20, 1, 19);
+    font-size: 0.8rem;
+    margin-bottom: 4px;
+  }
 }

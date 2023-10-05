@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
-    "sass": "sass scss/main.scss css/main.css"
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.scss css/main.css"
   },
   "repository": {
     "type": "git",

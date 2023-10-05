@@ -5,8 +5,22 @@
 /*Reset Gral - Ver basics.scss*/
 /*Map que Define la Paleta de Colores del Proyecto - Ver basics.scss*/
 /* Muestra el menú cuando está abierto */
+.navbar {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.nav-link {
+  color: azure !important;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: gold !important;
+}
+
 .navbar-colors {
-  background-color: #f5760f !important;
+  background-color: deeppink !important;
 }
 
 .menuCollapsed {
@@ -19,23 +33,42 @@
   left: -200; /* Muestra el menú ajustando la posición a 0 */
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logopag {
+  background-color: deeppink;
+  background-size: cover;
+}
+.logopag img {
+  border-radius: 10%;
+}
+
 .logoWhatsApp {
   z-index: 1000;
   bottom: 150px !important;
+}
+
+h2 {
+  text-align: center;
 }
 
 footer {
   padding: 10px 60px;
   margin-top: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  background-color: rgb(208, 203, 209);
+  background-color: gold;
+  color: deeppink;
 }
 footer a {
-  text-decoration: none;
+  text-decoration: underline;
   display: block;
-  color: rgb(51, 20, 255);
+  color: rgb(20, 1, 19);
   font-size: 0.8rem;
   margin-bottom: 4px;
 }
