@@ -5,22 +5,33 @@
 /*Reset Gral - Ver basics.scss*/
 /*Map que Define la Paleta de Colores del Proyecto - Ver basics.scss*/
 /* Muestra el menú cuando está abierto */
+* {
+  font-family: "Raleway", sans-serif;
+}
+
 .navbar {
   padding-top: 0px !important;
   padding-bottom: 0px !important;
 }
 
 .nav-link {
-  color: azure !important;
+  color: rgb(13, 5, 14) !important;
 }
 
 .nav-link:hover {
   text-decoration: underline;
-  color: rgb(134, 19, 187) !important;
+  color: rgb(19, 8, 24) !important;
+  background-color: deeppink !important;
+}
+
+.dropdown-item:hover {
+  text-decoration: underline;
+  color: rgb(19, 8, 24) !important;
+  background-color: deeppink !important;
 }
 
 .navbar-colors {
-  background-color: deeppink !important;
+  background-color: white !important;
 }
 
 .menuCollapsed {
@@ -40,7 +51,7 @@
 }
 
 .logopag {
-  background-color: deeppink;
+  background-color: white;
   background-size: cover;
 }
 .logopag img {
@@ -62,13 +73,13 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: gold;
-  color: deeppink;
+  background-color: deeppink;
+  color: white;
 }
 footer a {
   text-decoration: underline;
   display: block;
-  color: rgb(20, 1, 19);
+  color: rgb(238, 229, 237);
   font-size: 0.8rem;
   margin-bottom: 4px;
 }
