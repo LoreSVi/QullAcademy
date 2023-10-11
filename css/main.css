@@ -20,14 +20,12 @@
 
 .nav-link:hover {
   text-decoration: underline;
-  color: rgb(19, 8, 24) !important;
-  background-color: deeppink !important;
+  color: deeppink !important;
 }
 
 .dropdown-item:hover {
   text-decoration: underline;
-  color: rgb(19, 8, 24) !important;
-  background-color: deeppink !important;
+  color: deeppink !important;
 }
 
 .navbar-colors {
@@ -73,7 +71,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: deeppink;
+  background-color: darkmagenta;
   color: white;
 }
 footer a {
@@ -82,6 +80,18 @@ footer a {
   color: rgb(238, 229, 237);
   font-size: 0.8rem;
   margin-bottom: 4px;
+}
+footer :hover {
+  color: rgb(241, 191, 243);
+}
+
+.vertical-line {
+  border-left: 6px solid white;
+  height: 420px;
+  position: absolute;
+  left: 30%;
+  margin-left: -4px;
+  top: 60px;
 }
 
 @media (max-width: 991px) {

@@ -1,6 +1,6 @@
 /* Muestra el menú cuando está abierto */
-*{
-  font-family:'Raleway', sans-serif; 
+* {
+  font-family: "Raleway", sans-serif;
 }
 .navbar {
   padding-top: 0px !important;
@@ -11,13 +11,11 @@
 }
 .nav-link:hover {
   text-decoration: underline;
-  color: rgb(19, 8, 24) !important;
-  background-color: deeppink !important;
+  color: deeppink !important;
 }
-.dropdown-item:hover{
+.dropdown-item:hover {
   text-decoration: underline;
-  color: rgb(19, 8, 24) !important;
-  background-color: deeppink !important;
+  color: deeppink !important;
 }
 .navbar-colors {
   background-color: map-get(
@@ -25,7 +23,6 @@
     background_primary_color
   ) !important;
 }
-
 
 .menuCollapsed {
   width: 215vh;
@@ -55,7 +52,7 @@
   bottom: 150px !important;
 }
 
-h2{
+h2 {
   text-align: center;
 }
 
@@ -74,4 +71,16 @@ footer {
     font-size: 0.8rem;
     margin-bottom: 4px;
   }
+  :hover {
+    color: rgb(241, 191, 243);
+  }
+}
+
+.vertical-line {
+  border-left: 6px solid white;
+  height: 420px;
+  position: absolute;
+  left: 30%;
+  margin-left: -4px;
+  top: 60px;
 }
