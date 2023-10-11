@@ -48,6 +48,21 @@
   align-items: center;
 }
 
+h3 {
+  color: deeppink;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.grid-item {
+  padding: 20px;
+}
+
 .logopag {
   background-color: white;
   background-size: cover;
@@ -83,15 +98,6 @@ footer a {
 }
 footer :hover {
   color: rgb(241, 191, 243);
-}
-
-.vertical-line {
-  border-left: 6px solid white;
-  height: 420px;
-  position: absolute;
-  left: 30%;
-  margin-left: -4px;
-  top: 60px;
 }
 
 @media (max-width: 991px) {
