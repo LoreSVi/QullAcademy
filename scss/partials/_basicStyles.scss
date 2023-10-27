@@ -2,26 +2,29 @@
 * {
   font-family: "Raleway", sans-serif;
 }
+
 .navbar {
   padding-top: 0px !important;
   padding-bottom: 0px !important;
 }
+
 .nav-link {
   color: rgb(13, 5, 14) !important;
 }
+
 .nav-link:hover {
   text-decoration: underline;
   color: deeppink !important;
 }
+
 .dropdown-item:hover {
   text-decoration: underline;
   color: deeppink !important;
 }
+
 .navbar-colors {
-  background-color: map-get(
-    $paleta_colores,
-    background_primary_color
-  ) !important;
+  background-color: map-get($paleta_colores,
+      background_primary_color) !important;
 }
 
 .menuCollapsed {
@@ -29,8 +32,10 @@
   left: -220px !important;
   top: 50px !important;
 }
+
 .navbar-collapse.show {
-  left: -200; /* Muestra el menú ajustando la posición a 0 */
+  left: -200;
+  /* Muestra el menú ajustando la posición a 0 */
 }
 
 .center {
@@ -39,7 +44,7 @@
   align-items: center;
 }
 
-h3{
+h3 {
   color: deeppink;
 }
 
@@ -49,18 +54,96 @@ h3{
   grid-template-rows: 1fr 1fr;
   gap: 10px;
 }
-.grid-item {
 
+.grid-item {
   padding: 20px;
 }
 
 .logopag {
   background-color: $background_primary_color;
   background-size: cover;
+
   img {
     border-radius: 10%;
   }
 }
+
+.card {
+  min-height: 100vh;
+  & .card-subtitle{
+    font-weight: 550;
+  }
+  & .card-title{
+    font-weight: 550;
+    margin: 15px 0px 30px 0px;
+  }
+  &.borderCard1 {
+    border-color: map-get($paleta_colores, borderCard_color1) !important;
+  }
+
+  &.borderCard2 {
+    border-color: map-get($paleta_colores, borderCard_color2);
+  }
+
+  &.borderCard3 {
+    border-color: map-get($paleta_colores, borderCard_color3);
+  }
+
+  &.borderCard4 {
+    border-color: map-get($paleta_colores, borderCard_color4);
+  }
+
+  &.borderCard5 {
+    border-color: map-get($paleta_colores, borderCard_color5);
+  }
+
+  & .cardHead {
+    width: 100%;
+    height: 35px;
+  }
+
+  & .cardHeadColor-1 {
+    background-color: map-get($paleta_colores, headCard_background_color1);
+  }
+
+  & .cardHeadColor-2 {
+    background-color: map-get($paleta_colores, headCard_background_color2);
+  }
+
+  & .cardHeadColor-3 {
+    background-color: map-get($paleta_colores, headCard_background_color3);
+  }
+
+  & .cardHeadColor-4 {
+    background-color: map-get($paleta_colores, headCard_background_color4);
+  }
+
+  & .cardHeadColor-5 {
+    background-color: map-get($paleta_colores, headCard_background_color5);
+  }
+
+  & .card-subtitle {
+    color: map-get($paleta_colores, card_subtitles_color) !important;
+  }
+
+  & .link_whatsapp {
+    font-weight: 550;
+    color: map-get($paleta_colores, link_whatsapp) !important;
+  }
+}
+
+.titlePage {
+  color: white;
+  font-weight: 400;
+  margin-top: -150px;
+  margin-bottom: 100px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color:map-get($paleta_colores, controlCarousel);
+  margin-top: 50px;
+}
+
 
 .logoWhatsApp {
   z-index: 1000;
@@ -71,6 +154,8 @@ h2 {
   text-align: center;
 }
 
+
+
 footer {
   padding: 10px 60px;
   margin-top: 10px;
@@ -79,6 +164,7 @@ footer {
   align-items: center;
   background-color: $footer_color;
   color: $footer_font_color;
+
   a {
     text-decoration: underline;
     display: block;
@@ -86,6 +172,7 @@ footer {
     font-size: 0.8rem;
     margin-bottom: 4px;
   }
+
   :hover {
     color: rgb(241, 191, 243);
   }
