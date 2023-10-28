@@ -169,23 +169,34 @@
 <hr>
 </header>
 
+<div class="formularioContacto">
+  <div class="row ">
+      <div class="col-md-4 col-sm-6 col-12">
+          <div class="card mt-2 borderCard" >
+  <h1>CONTACTO</h1>
+  <P>Los campos marcados con * son obligatorios</P>
+<form action="procesar_formulario.php" method="post">
+    <label for="nombre">Nombre y Apellido*:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    
+    <label for="correo">Correo Electrónico*:</label>
+    <input type="email" id="correo" name="correo" required>
 
-
-
-<div class="col-lg-3 col-md-6">
-  <h5 class="text-grey mb-4">CONTACTO</h5>
-  <img src="../img/qull-girl.jpeg" alt="">
-
+    <label for="correo">Teléfono*:</label>
+    <input type="number" id="phone" name="phone" required>
+    
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" rows="2" required></textarea>
+    
+    <input type="submit" value="Enviar">
+</form>
 </div>
-
-
-
-
-
-
-
-
-
+      </div>
+<div class="col-lg-3 col-md-6">
+  <img src="../img/qull-girl.jpeg" alt="">
+</div>
+  </div>
+</div>
  <!--Sección Footer-->
  <footer>
   <div class="container-fluid" data-wow-delay="0.1s">
@@ -207,15 +218,12 @@
                 <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>🚩Av. Colón 455 Piso 3, Mendoza</p></a>   
           </div>
 
-         
-
             <div class="col-lg-3 col-md-6">
               <h5 class="text-grey mb-4">MEDIOS DE PAGO</h5>
               <img src="../img/mastercard-curved-80px.png" alt="tarjeta mastercard">
               <img src="../img/visa-curved-80px.png" alt="tarjeta visa">
       </div>
-      
-
+   
             <div class="col-lg-3 col-md-6">
               
                 <h5 class="text-grey mb-4">REDES</h5> 
@@ -235,6 +243,13 @@
 </div>
   
 </footer>
+
+
+
+
+
+
+ 
  
 
 <!--Logo de WhatsApp-->
@@ -247,7 +262,7 @@
     <img
       class="img-fluid position-fixed end-0 bottom-50 logoWhatsApp"
       style="width: 4rem"
-      src="../assets/images/whatsapp_tf.png"
+      src="../../assets/images/whatsapp_tf.png"
       alt="logoDeWhatsApp"
     />
   </a>
