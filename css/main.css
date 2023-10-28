@@ -54,11 +54,11 @@ h3 {
 }
 
 .historiaQull {
-  padding: 20px 20px 0px 20px;
+  padding: 40px 40px 0px 40px;
 }
 
 .premiosQull {
-  padding: 20px 20px 0px 20px;
+  padding: 40px 40px 0px 40px;
   margin-bottom: 30px;
 }
 
@@ -132,6 +132,15 @@ h3 {
 .carousel-control-prev-icon, .carousel-control-next-icon {
   background-color: darkmagenta;
   margin-top: 50px;
+}
+
+.card button {
+  background-color: fuchsia !important;
+  border-color: deeppink;
+}
+.card button a {
+  color: antiquewhite;
+  text-decoration: none;
 }
 
 .logoWhatsApp {
