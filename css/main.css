@@ -217,6 +217,7 @@ h2 {
 }
 .formularioContacto img {
   width: 300px;
+  display: inline-flex !important;
 }
 
 footer {
