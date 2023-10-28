@@ -168,6 +168,9 @@ h2 {
   margin: 0;
   padding: 0;
 }
+.formularioContacto .card {
+  display: inline-flex;
+}
 .formularioContacto h1 {
   text-align: center;
   color: deeppink;
