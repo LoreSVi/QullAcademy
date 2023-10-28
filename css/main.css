@@ -4,6 +4,13 @@
 /*Maps*/
 /*Reset Gral - Ver basics.scss*/
 /*Map que Define la Paleta de Colores del Proyecto - Ver basics.scss*/
+/* Estilos para el modo claro */
+.light-theme body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Añade aquí más estilos específicos del modo claro */
 /* Muestra el menú cuando está abierto */
 * {
   font-family: "Raleway", sans-serif;
