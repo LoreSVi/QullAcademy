@@ -48,15 +48,12 @@ h3 {
   color: deeppink;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 10px;
+.historiaQull{
+  padding:20px 20px 0px 20px;
 }
-
-.grid-item {
-  padding: 20px;
+.premiosQull{
+  padding:20px 20px 0px 20px;
+  margin-bottom: 30px;
 }
 
 .logopag {
