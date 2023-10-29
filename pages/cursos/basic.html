@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>basic</title>
+  <title>Qull Academy - Cursos Nivel Basic</title>
+  <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon">
   <link rel="stylesheet" type="text/css" href="../../css/main.css" />
   <!-- Agrega los enlaces a los archivos CSS y JavaScript de Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -15,7 +16,7 @@
   <header>
     <div class="container-fluid logopag">
       <a class="center" href="../../index.html">
-        <img src="/img/logo hair and beauty academy.png" class="logoMarca" alt="...">
+        <img src="/img/logo hair and beauty academy.png" class="logoMarca img-fluid" alt="...">
       </a>
     </div>
     <hr>
@@ -141,15 +142,12 @@
     </nav>
     <hr>
   </header>
-
-
-
-  <div class="container-fluid">
-    <div class="" style="height: 300px;">
-      <img id="imgBasic" class="img-fluid" src="../../assets/images/cursos/IMG_7881.jpg" alt="imagen curso basic">
-    </div>
-    <div class="text-center">
-      <h2 class="titlePage">Nivel Basic</h2>
+  <div class="container-fluid text-center">
+    <div class="" >
+      <img id="imgBasic" class="" src="../../assets/images/cursos/Nivel Basic.jpg" alt="imagen curso basic">
+      <div class="text-center">
+        <h2 class="titlePage">Nivel Basic</h2>
+      </div>
     </div>
     <div id="tarjetaCarousel" class="carousel slide  container mb-4 pb-4" data-interval="false">
       <div class="carousel-inner">
@@ -168,7 +166,7 @@
                   <h6 class="card-subtitle mb-2 mt-3 text-muted">Duración</h6>
                   <p class="card-text">Some quick example text to build on the card title and make up
                     the bulk of the card's content.</p>
-                  <a href="https://api.whatsapp.com/send?phone=543546520243&text=Consulta desde la Web: Hola%21%20Quisiera%20informaci%C3%B3n%20sobre%20el%20curso%20de%20Estilista%20Profesional%20Basic%20...."
+                  <a id="linkBasic1" onclick="sendWhatsapp('linkBasic1')"
                     class="card-link link_whatsapp" target="_blank"
                     style="text-decoration: none; color: black;">Consultanos
                     <img class="img-fluid logoWhatsApp" style="width: 2.5rem;" src="../../assets/images/whatsapp_tf.png"
@@ -190,7 +188,7 @@
                   <h6 class="card-subtitle mb-2  mt-3 text-muted">Duración</h6>
                   <p class="card-text">Some quick example text to build on the card title and make up
                     the bulk of the card's content.</p>
-                  <a href="https://api.whatsapp.com/send?phone=543546520243&text=Consulta desde la Web: Hola%21%20Quisiera%20informaci%C3%B3n%20sobre%20el%20curso%20de%20Masculino%20y%20Barberia%20Profesional%20Basic%20...."
+                  <a  id="linkBasic2" onclick="sendWhatsapp('linkBasic2')"
                     class="card-link link_whatsapp" target="_blank"
                     style="text-decoration: none; color: black;">Consultanos
                     <img class="img-fluid logoWhatsApp" style="width: 2.5rem;" src="../../assets/images/whatsapp_tf.png"
@@ -211,7 +209,7 @@
                   <h6 class="card-subtitle mb-2  mt-3 text-muted">Duración</h6>
                   <p class="card-text">Some quick example text to build on the card title and make up
                     the bulk of the card's content.</p>
-                  <a href="https://api.whatsapp.com/send?phone=543546520243&text=Consulta desde la Web: Hola%21%20Quisiera%20informaci%C3%B3n%20sobre%20el%20curso%20de%20Corte%20Femenino%20Basic%20...."
+                  <a  id="linkBasic3" onclick="sendWhatsapp('linkBasic3')"
                     class="card-link link_whatsapp" target="_blank"
                     style="text-decoration: none; color: black;">Consultanos
                     <img class="img-fluid logoWhatsApp" style="width: 2.5rem;" src="../../assets/images/whatsapp_tf.png"
@@ -238,8 +236,7 @@
                   <h6 class="card-subtitle mb-2  mt-3 text-muted">Duración</h6>
                   <p class="card-text">Some quick example text to build on the card title and make up
                     the bulk of the card's content.</p>
-                  <a href="https://api.whatsapp.com/send?phone=543546520243&text=Consulta desde la Web: Hola%21%20Quisiera%20informaci%C3%B3n%20sobre%20el%20curso%20de%20Color%20Femenino%20Basic%20...."
-                    class="card-link link_whatsapp" target="_blank"
+                  <a  id="linkBasic4" onclick="sendWhatsapp('linkBasic4')"
                     style="text-decoration: none; color: black;">Consultanos
                     <img class="img-fluid logoWhatsApp" style="width: 2.5rem;" src="../../assets/images/whatsapp_tf.png"
                       alt="consulta_curso_basic">
@@ -259,7 +256,7 @@
                   <h6 class="card-subtitle mb-2 mt-3 text-muted">Duración</h6>
                   <p class="card-text">Some quick example text to build on the card title and make up
                     the bulk of the card's content.</p>
-                  <a href="https://api.whatsapp.com/send?phone=543546520243&text=Consulta desde la Web: Hola%21%20Quisiera%20informaci%C3%B3n%20sobre%20el%20curso%20de%20Corte%20Masculino%20Basic%20...."
+                  <a  id="linkBasic5" onclick="sendWhatsapp('linkBasic5')"
                     class="card-link link_whatsapp" target="_blank"
                     style="text-decoration: none; color: black;">Consultanos
                     <img class="img-fluid logoWhatsApp" style="width: 2.5rem;" src="../../assets/images/whatsapp_tf.png"
@@ -280,7 +277,7 @@
                   <h6 class="card-subtitle mb-2  mt-3 text-muted">Duración</h6>
                   <p class="card-text">Some quick example text to build on the card title and make up
                     the bulk of the card's content.</p>
-                  <a href="https://api.whatsapp.com/send?phone=543546520243&text=Consulta desde la Web: Hola%21%20Quisiera%20informaci%C3%B3n%20sobre%20el%20curso%20de%20Color%20Masculino%20Basic%20...."
+                  <a  id="linkBasic6" onclick="sendWhatsapp('linkBasic6')"
                     class="card-link link_whatsapp" target="_blank"
                     style="text-decoration: none; color: black;">Consultanos
                     <img class="img-fluid logoWhatsApp" style="width: 2.5rem;" src="../../assets/images/whatsapp_tf.png"
@@ -308,7 +305,7 @@
                   <h6 class="card-subtitle mb-2  mt-3 text-muted">Duración</h6>
                   <p class="card-text">Some quick example text to build on the card title and make up
                     the bulk of the card's content.</p>
-                  <a href="https://api.whatsapp.com/send?phone=543546520243&text=Consulta desde la Web: Hola%21%20Quisiera%20informaci%C3%B3n%20sobre%20el%20curso%20de%20Afeitado%20Profesional%20Basic%20...."
+                  <a  id="linkBasic7" onclick="sendWhatsapp('linkBasic7')"
                     class="card-link link_whatsapp" target="_blank"
                     style="text-decoration: none; color: black;">Consultanos
                     <img class="img-fluid logoWhatsApp" style="width: 2.5rem;" src="../../assets/images/whatsapp_tf.png"
@@ -385,8 +382,7 @@
 
     <!--Logo de WhatsApp-->
     <div>
-      <a href="https://api.whatsapp.com/send?phone=[Nro de Whatsapp]&text=Consulta desde la Web: Hola%21%20Quisiera%20informaci%C3%B3n%20sobre%20...%20."
-        class="float" target="_blank">
+      <a id="whatsappLink"  class="float" target="_blank">
         <img class="img-fluid position-fixed end-0 bottom-50 logoWhatsApp" style="width: 4rem"
           src="../../assets/images/whatsapp_tf.png" alt="logoDeWhatsApp" />
       </a>
@@ -397,6 +393,48 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"></script>
     <script src="../../js/cursos.js"> </script>
+    <script src="/js/env.js"></script>
+  <script>
+    /* var whatsappNumber = "tu_numero_de_whatsapp_aqui"; // Reemplaza esto con tu número de WhatsApp */
+    const whatsappLink = document.getElementById("whatsappLink");
+    const message = encodeURIComponent("Consulta desde la Web: Hola! Quisiera información sobre...");
+    console.log()
+    whatsappLink.href = "https://api.whatsapp.com/send?phone=" + whatsappNumber + "&text=" + message;
+    console.log(whatsappLink.href)
+    //funcion para enviar mensaje de whatsapp personalizado segun el curso seleccionado
+    const sendWhatsapp= (curso) =>{
+      console.log(curso)
+      const linkCurso = document.getElementById(curso);
+      //switch
+      let message='';
+      switch (curso) {
+        case 'linkBasic1':
+          message='Quiero consultar por el curso de Estilista Profesional Basic';
+          break;
+        case 'linkBasic2':
+          message='Quiero consultar por el curso de Masculino y Barberia Profesional Basic';
+          break;
+        case 'linkBasic3':
+          message='Quiero consultar por el curso de Corte Femenino Basic';
+        case 'linkBasic4':
+          message='Quiero consultar por el curso de Color Femenino Basic';
+          break;
+        case 'linkBasic5':
+          message='Quiero consultar por el curso de Corte Masculino Basic';
+          break;
+        case 'linkBasic6':
+          message='Quiero consultar por el curso de Color Masculino Basic';
+          break;
+        case 'linkBasic7':
+          message='Quiero consultar por el curso de Afeitado Profesional Basic';
+          break;
+        default:
+          break;
+      }
+      linkCurso.href="https://api.whatsapp.com/send?phone=" + whatsappNumber + "&text=" + message;
+      console.log(linkCurso.href)
+    }
+  </script>
 </body>
 
 </html>

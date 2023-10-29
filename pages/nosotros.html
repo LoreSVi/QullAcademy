@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nosotros</title>
+    <title>Qull Academy - Nosotros</title>
+    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="../css/main.css" />
     <!-- Agrega los enlaces a los archivos CSS y JavaScript de Bootstrap 5 -->
     <link
@@ -17,7 +18,7 @@
   <header>
     <div class="container-fluid logopag">
       <a class="center" href="/index.html">
-    <img src="../img/logo hair and beauty academy.png" class="logoMarca" alt="...">
+    <img src="../img/logo hair and beauty academy.png" class="logoMarca img-fluid" alt="...">
   </a>
 </div>
 <hr>
@@ -252,11 +253,7 @@ La apertura de la Academia en Buenos Aires "Recoleta" donde trajimos para esa oc
  
   <!--Logo de WhatsApp-->
   <div>
-    <a
-      href="https://api.whatsapp.com/send?phone=[Nro de Whatsapp]&text=Consulta desde la Web: Hola%21%20Quisiera%20informaci%C3%B3n%20sobre%20...%20."
-      class="float"
-      target="_blank"
-    >
+    <a id="whatsappLink"  class="float" target="_blank" >
       <img
         class="img-fluid position-fixed end-0 bottom-50 logoWhatsApp"
         style="width: 4rem"
@@ -271,6 +268,15 @@ La apertura de la Academia en Buenos Aires "Recoleta" donde trajimos para esa oc
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"
   ></script>
+  <script src="/js/env.js"></script>
+  <script>
+    /* var whatsappNumber = "tu_numero_de_whatsapp_aqui"; // Reemplaza esto con tu número de WhatsApp */
+    var whatsappLink = document.getElementById("whatsappLink");
+    var message = encodeURIComponent("Consulta desde la Web: Hola! Quisiera información sobre...");
+    console.log()
+    whatsappLink.href = "https://api.whatsapp.com/send?phone=" + whatsappNumber + "&text=" + message;
+    console.log(whatsappLink.href)
+  </script>
 </body>
 </html>
 
