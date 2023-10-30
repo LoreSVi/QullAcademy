@@ -215,7 +215,7 @@ h2 {
   margin: 0;
   padding: 0;
   .card {
-    height: 400px;
+    height: 250px;
     display: inline-flex;
   }
   h1 {
@@ -273,6 +273,18 @@ h2 {
     display: inline-flex !important;
   }
 }
+
+@media (max-width: 768px) {
+.formularioContacto {
+  margin: 5px;
+  .card {
+    height: 200px;
+    display: inline-flex !important;
+  }
+}
+}
+
+
 
 footer {
   padding: 10px 60px;
