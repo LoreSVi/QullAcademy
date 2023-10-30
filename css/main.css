@@ -168,6 +168,13 @@ h3 {
 }
 
 /*productos*/
+.beadhead-img:hover {
+  border-top: 4px solid greenYellow;
+  border-bottom: 4px solid rgb(185, 19, 130);
+  border-left: 4px solid rgb(99, 39, 240);
+  border-right: 4px solid deeppink;
+}
+
 .herramientas-img {
   width: 1200px;
   height: 320px;
