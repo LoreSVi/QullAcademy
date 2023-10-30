@@ -31,8 +31,10 @@
 }
 
 .navbar-colors {
-  background-color: map-get($paleta_colores,
-      background_primary_color) !important;
+  background-color: map-get(
+    $paleta_colores,
+    background_primary_color
+  ) !important;
 }
 
 .menuCollapsed {
@@ -55,15 +57,15 @@
 h3 {
   color: deeppink;
 }
-
-.historiaQull{
-  padding:40px 40px 0px 40px;
+/*nosotros*/
+.historiaQull {
+  padding: 40px 40px 0px 40px;
 }
-.premiosQull{
-  padding:40px 40px 0px 40px;
+.premiosQull {
+  padding: 40px 40px 0px 40px;
   margin-bottom: 30px;
 }
-.card-img{
+.card-img {
   display: inline-flex !important;
 }
 .logopag {
@@ -77,10 +79,10 @@ h3 {
 
 .card {
   min-height: 100vh;
-  & .card-subtitle{
+  & .card-subtitle {
     font-weight: 550;
   }
-  & .card-title{
+  & .card-title {
     font-weight: 550;
     margin: 15px 0px 30px 0px;
   }
@@ -147,30 +149,47 @@ h3 {
   font-weight: 400;
   margin-top: -100px;
   margin-bottom: 100px;
-  position:static;  
+  position: static;
 }
 
-#imgBasic{
+#imgBasic {
   /* display: none; */
   z-index: 2;
   width: 100%;
   /* max-height: 450px !important; */
 }
-.carousel-control-prev-icon, .carousel-control-next-icon {
-  background-color:map-get($paleta_colores, controlCarousel);
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: map-get($paleta_colores, controlCarousel);
   margin-top: 50px;
 }
 
-.card button{
-  background-color:fuchsia !important;
+.card button {
+  background-color: fuchsia !important;
   border-color: deeppink;
-  a{
-    color:antiquewhite;
+  a {
+    color: antiquewhite;
     text-decoration: none;
   }
 }
 
+/*productos*/
+.herramientas-img{
+  width: 1200px;
+  height:320px;
+}
 
+@media (max-width: 768px) {
+  .beadhead-img {
+    width: 200px !important;
+  }
+  .imgProductos{
+    width: 300px;
+  }
+  .herramientas-img{
+    width: 300px;
+  }
+}
 
 .logoWhatsApp {
   z-index: 1000;
@@ -181,70 +200,71 @@ h2 {
   text-align: center;
 }
 
-.formularioContacto{
+/*contacto*/
+
+.formularioContacto {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  .card{
+  .card {
     height: 400px;
-    display:inline-flex;
+    display: inline-flex;
   }
-    h1 {
-  text-align: center;
-  color: deeppink;
-  width: 100%;
-   }
-   p{
+  h1 {
     text-align: center;
-   }
-   .border-Card{
+    color: deeppink;
+    width: 100%;
+  }
+  p {
+    text-align: center;
+  }
+  .border-Card {
     border-color: deeppink !important;
-   }
-form {
-  max-width: 400px;
-  margin: 0 auto;
-  border-color: deeppink !important;
-  padding: 20px;
-  border-radius: 5px;
-}
+  }
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    border-color: deeppink !important;
+    padding: 20px;
+    border-radius: 5px;
+  }
 
-label {
-  display: block;
-}
-input[type="text"],
-input[type="email"],
-input[type="number"],
-textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border-bottom: 2px solid #e0139c;
-  border-left: none;
-  border-top: none;
-  border-right: none;
-}
+  label {
+    display: block;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #e0139c;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+  }
 
-textarea {
-  resize: vertical;
-}
-input[type="submit"] {
-  background-color:deeppink;
-  color: #fff;
-  padding: 10px 20px 8px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
+  textarea {
+    resize: vertical;
+  }
+  input[type="submit"] {
+    background-color: deeppink;
+    color: #fff;
+    padding: 10px 20px 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
 
-input[type="submit"]:hover {
-  text-decoration: underline;
+  input[type="submit"]:hover {
+    text-decoration: underline;
+  }
+  img {
+    width: 300px;
+    display: inline-flex !important;
+  }
 }
-img{
-  width: 300px;
-  display: inline-flex !important;
-}
-}
-
 
 footer {
   padding: 10px 60px;

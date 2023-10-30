@@ -60,6 +60,7 @@ h3 {
   color: deeppink;
 }
 
+/*nosotros*/
 .historiaQull {
   padding: 40px 40px 0px 40px;
 }
@@ -151,7 +152,8 @@ h3 {
   /* max-height: 450px !important; */
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
   background-color: darkmagenta;
   margin-top: 50px;
 }
@@ -165,6 +167,23 @@ h3 {
   text-decoration: none;
 }
 
+/*productos*/
+.herramientas-img {
+  width: 1200px;
+  height: 320px;
+}
+
+@media (max-width: 768px) {
+  .beadhead-img {
+    width: 200px !important;
+  }
+  .imgProductos {
+    width: 300px;
+  }
+  .herramientas-img {
+    width: 300px;
+  }
+}
 .logoWhatsApp {
   z-index: 1000;
   bottom: 150px !important;
@@ -174,6 +193,7 @@ h2 {
   text-align: center;
 }
 
+/*contacto*/
 .formularioContacto {
   font-family: Arial, sans-serif;
   margin: 0;
