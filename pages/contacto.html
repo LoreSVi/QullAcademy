@@ -35,7 +35,7 @@
             <li class="nav-item">
               <a class="nav-link" href="nosotros.html">NOSOTROS</a>
             </li>
-    
+
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">CURSOS </a>
@@ -74,7 +74,7 @@
                           Afeitado Profesional</a>
                       </div>
                     </div>
-    
+
                     <div class="col-md-3">
                       <a class="nav-link" href="cursos/advanced.html#advanced">
                         <h6>NIVEL ADVANCED</h6>
@@ -137,36 +137,38 @@
 
   <div class="formularioContacto">
     <div class="container-fluid">
-      <div class="row ">
-        <div class="col-md-4 col-sm-6 col-12">
-          <div class="card mt-2 borderCard">
-            <h1>CONTACTO</h1>
-            <P>Los campos marcados con * son obligatorios</P>
-            <div class="form">
-              <label for="nombre">Nombre y Apellido*:</label>
-              <input type="text" id="name" name="nombre" required>
+      <div class="row d-flex justify-content-center ">
+          <div class="card-form card col-md-6 col-lg-5 col-11 d-flex justify-content-center alignitems-center">
+            <div class="card-body">
+              <div class="text-start card-title ">
+                <h1 class="title-card">CONTACTO</h1>
+                <P class="subtitle-card">Los campos marcados con * son obligatorios</P>
+              </div>
+              <div class="fields-form">
+                <label for="nombre">Nombre y Apellido*:</label>
+                <input type="text" id="name" name="nombre" required>
 
-              <label for="correo">Correo Electrónico:</label>
-              <input type="email" id="email" name="correo">
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="email" name="correo">
 
-              <label for="correo">Teléfono:</label>
-              <input type="number" id="phone" name="phone">
+                <label for="phone">Teléfono:</label>
+                <input type="text" id="phone" name="phone">
 
-              <label for="mensaje">Mensaje*:</label>
-              <textarea id="message" name="mensaje" rows="2" required></textarea>
+                <label for="mensaje">Mensaje*:</label>
+                <textarea id="message" name="mensaje" rows="2" required></textarea>
 
 
-              <!-- <input type="button" value="Enviar"> -->
+                <!-- <input type="button" value="Enviar"> -->
 
-              <button onclick=handleOnClick() target="_blank">
-                Enviar Consulta
-              </button>
+                <button class="btn mt-3" onclick=handleOnClick() target="_blank">
+                  Enviar Consulta
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="card-img">
-            <img src="../img/qull-girl.jpeg" alt="">
+        <div class=" col-md-4  col-12 d-flex justify-content-center align-items-center">
+          <div class="card-img d-flex justify-content-center align-items-center">
+            <img class="img-form" src="../img/qull-girl.jpeg" alt="">
           </div>
         </div>
       </div>
@@ -224,7 +226,7 @@
   </footer>
   <!--Logo de WhatsApp-->
   <div>
-    <a id="whatsappLink"  class="float" target="_blank">
+    <a id="whatsappLink" class="float" target="_blank">
       <img class="img-fluid position-fixed end-0 bottom-50 logoWhatsApp" style="width: 4rem"
         src="../assets/images/whatsapp_tf.png" alt="logoDeWhatsApp" />
     </a>

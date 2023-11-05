@@ -8,6 +8,57 @@
     } 
 }
 
+@media (max-width: 767px) {
+    .card-form {
+        border-width: 4px !important;
+        display: flex;
+        justify-content: end;
+        /* padding-bottom: 180px; */
+      /*  margin-left: 250px; */
+      }
+    
+       .img-form {
+        z-index: 2;
+        margin-top: 10px !important;
+        margin-left: 0px !important; 
+      }
+}
+
+@media (min-width: 992px) {
+    .card-form {
+        border-width: 4px !important;
+        display: flex;
+        justify-content: end;
+        /* padding-bottom: 180px; */
+      /*  margin-left: 250px; */
+      }
+    
+       .img-form {
+        z-index: 2;
+        margin-top: 100px !important;
+        margin-left: -100px !important; 
+        width: 390px !important;
+        height: 622px !important;
+      }
+}
+@media (min-width: 1200px) {
+    .card-form {
+        border-width: 4px !important;
+        display: flex;
+        justify-content: end;
+        columns: 5;
+        /* padding-bottom: 180px; */
+       margin-left: 100px;
+      }
+       .img-form {
+        z-index: 2;
+        margin-top: 30px !important;
+        margin-left: -140px !important; 
+        width: 390px !important;
+        height: 622px !important;
+      }
+}
+
 @media (max-width: 640px) {
     .titlePage {
         margin-top: -40px;

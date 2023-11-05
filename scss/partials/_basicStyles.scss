@@ -31,10 +31,8 @@
 }
 
 .navbar-colors {
-  background-color: map-get(
-    $paleta_colores,
-    background_primary_color
-  ) !important;
+  background-color: map-get($paleta_colores,
+      background_primary_color) !important;
 }
 
 .menuCollapsed {
@@ -57,17 +55,21 @@
 h3 {
   color: deeppink;
 }
+
 /*nosotros*/
 .historiaQull {
   padding: 40px 40px 0px 40px;
 }
+
 .premiosQull {
   padding: 40px 40px 0px 40px;
   margin-bottom: 30px;
 }
+
 .card-img {
   display: inline-flex !important;
 }
+
 .logopag {
   background-color: $background_primary_color;
   background-size: cover;
@@ -79,13 +81,16 @@ h3 {
 
 .card {
   min-height: 100vh;
+
   & .card-subtitle {
     font-weight: 550;
   }
+
   & .card-title {
     font-weight: 550;
     margin: 15px 0px 30px 0px;
   }
+
   &.borderCard1 {
     border-color: map-get($paleta_colores, borderCard_color1) !important;
   }
@@ -158,6 +163,7 @@ h3 {
   width: 100%;
   /* max-height: 450px !important; */
 }
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: map-get($paleta_colores, controlCarousel);
@@ -165,36 +171,98 @@ h3 {
 }
 
 .card button {
-  background-color: fuchsia !important;
-  border-color: deeppink;
+  background-color: map-get($paleta_colores, borderCard_color5) !important;
+  border-color:map-get($paleta_colores, borderCard_color5) !important;
+  color: map-get($paleta_colores, background_primary_color) !important;
+
   a {
-    color: antiquewhite;
+    color: map-get($paleta_colores, background_primary_color) !important;
     text-decoration: none;
   }
+  &:hover{
+    /* font-size: 1.1rem; */
+    color:map-get($paleta_colores, hoverBtn_color) !important;
+  }
+  
 }
 
 /*productos*/
-.beadhead-img:hover{
-    border-top:4px solid $borderCard_color2 ;
-    border-bottom: 4px solid $borderCard_color3;
-    border-left: 4px solid $borderCard_color1;
-    border-right: 4px solid $borderCard_color5;
-  }
-  
-.herramientas-img{
-  width: 1200px;
-  height:320px;
+.beadhead-img:hover {
+  border-top: 4px solid $borderCard_color2 ;
+  border-bottom: 4px solid $borderCard_color3;
+  border-left: 4px solid $borderCard_color1;
+  border-right: 4px solid $borderCard_color5;
 }
+
+.herramientas-img {
+  width: 1200px;
+  height: 320px;
+}
+
+.formularioContacto {
+  margin-top: 60px !important;
+  margin-bottom: 60px !important;
+}
+  .title-card {
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: start;
+    font-weight: 700;
+    font-size: 3rem;
+  }
+
+  .subtitle-card {
+    margin-left: 40px;
+    font-size: 12px;
+    display: flex;
+    justify-content: start;
+    margin-top: -10px;
+  }
+
+  .fields-form {
+    /* padding-top: 50px; */
+    margin-left: 30px;
+
+    label {
+      /* margin-top: 10px; */
+      font-size: 14px;
+    }
+
+    input {
+      font-size: 10px;
+      padding: 0px;
+      margin-top: -5px;
+    }
+  }
+
+   .card-form {
+    border-color:  map-get($paleta_colores, borderCard_color5) !important;
+    border-width: 4px !important;
+    /* padding-bottom: 180px; */
+   /*  margin-left: 120px; */
+  }
+
+   .img-form {
+    z-index: 2;
+    margin-top: 100px !important;
+    margin-left: -100px !important; 
+   /*  width: 390px !important;
+    height: 622px !important;*/
+  }
+
 
 @media (max-width: 768px) {
   .beadhead-img {
     width: 200px !important;
-    border-bottom: 2px solid #0d6efd ;
+    border-bottom: 2px solid #0d6efd;
   }
-  .imgProductos{
+
+  .imgProductos {
     width: 300px;
   }
-  .herramientas-img{
+
+  .herramientas-img {
     width: 300px;
   }
 }
@@ -214,21 +282,26 @@ h2 {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+
   .card {
     height: 250px;
     display: inline-flex;
   }
+
   h1 {
     text-align: center;
     color: deeppink;
     width: 100%;
   }
+
   p {
     text-align: center;
   }
+
   .border-Card {
     border-color: deeppink !important;
   }
+
   form {
     max-width: 400px;
     margin: 0 auto;
@@ -240,6 +313,7 @@ h2 {
   label {
     display: block;
   }
+
   input[type="text"],
   input[type="email"],
   input[type="number"],
@@ -256,6 +330,7 @@ h2 {
   textarea {
     resize: vertical;
   }
+
   input[type="submit"] {
     background-color: deeppink;
     color: #fff;
@@ -268,6 +343,7 @@ h2 {
   input[type="submit"]:hover {
     text-decoration: underline;
   }
+
   img {
     width: 300px;
     display: inline-flex !important;
@@ -275,13 +351,14 @@ h2 {
 }
 
 @media (max-width: 768px) {
-.formularioContacto {
-  margin: 5px;
-  .card {
-    height: 200px;
-    display: inline-flex !important;
+  .formularioContacto {
+    margin: 5px;
+
+    .card {
+      height: 200px;
+      display: inline-flex !important;
+    }
   }
-}
 }
 
 
