@@ -16,11 +16,36 @@
         /* padding-bottom: 180px; */
       /*  margin-left: 250px; */
       }
-    
        .img-form {
         z-index: 2;
         margin-top: 10px !important;
         margin-left: 0px !important; 
+      }
+      #imgBasic{
+        height: 200px !important;
+        width: auto;
+        margin-left: -250px !important;
+      }
+      .logoMarca{
+        width: 180px;
+        height: auto;
+      }
+      #carouselPortada{
+        display: none;
+      }
+      .img-portada-mobile{
+        display: block;
+      }
+      .img-portada{
+        height: 300px !important;
+        width: auto !important;
+        margin-left: -100px !important;
+      }
+      .title-portada{
+        color: map-get($paleta_colores, background_primary_color) !important;
+        margin-top: -55px;
+        font-size: 1.3rem;
+        font-weight: 600 !important;
       }
 }
 
@@ -32,7 +57,6 @@
         /* padding-bottom: 180px; */
       /*  margin-left: 250px; */
       }
-    
        .img-form {
         z-index: 2;
         margin-top: 100px !important;
@@ -40,6 +64,12 @@
         width: 390px !important;
         height: 622px !important;
       }
+    #img-facebook, #img-instagram{
+      width: 70px !important;
+    }
+    .txt-footer{
+      font-size: 0.9rem;
+    }
 }
 @media (min-width: 1200px) {
     .card-form {
@@ -69,5 +99,8 @@
 @media (min-width: 768px) {
     .titlePage {
         margin-bottom: 5px;
+      }
+      .img-portada-mobile{
+        display: none;
       }
 }
