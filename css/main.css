@@ -373,9 +373,12 @@ footer :hover {
     margin-left: 0px !important;
   }
   #imgBasic {
-    height: 200px !important;
-    width: auto;
-    margin-left: -250px !important;
+    /*  height: 200px !important; */
+    width: 100%;
+    /* margin-left: -250px !important; */
+  }
+  .img-container {
+    width: 100%;
   }
   .logoMarca {
     width: 180px;
@@ -397,6 +400,12 @@ footer :hover {
     margin-top: -55px;
     font-size: 1.3rem;
     font-weight: 600 !important;
+  }
+  .titleprod {
+    font-size: 1.3rem;
+  }
+  .subtitleprod {
+    font-size: 1.3rem;
   }
 }
 @media (min-width: 992px) {
