@@ -34,13 +34,14 @@
         width: 180px;
         height: auto;
       }
-      .img-portada{
+      .img-portada, #carouselPortada{
         display: none;
       }
       .img-portada-mobile{
         display: block;
       }
-      .img-portada, #carouselPortada {
+      .img-portada, #carouselPortadaMobile {
+        display:block;
         height: auto !important;
         width: 100vw !important;
         margin-left: 0px !important;
@@ -112,5 +113,17 @@
       }
       .img-portada-mobile{
         display: none;
+      }
+      .img-portada, #carouselPortadaMobile{
+        display: none;
+      }
+      .img-portada-mobile{
+        display: block;
+      }
+      .img-portada, #carouselPortada {
+        display: block;
+        height: auto !important;
+        width: 100vw !important;
+        margin-left: 0px !important;
       }
 }
