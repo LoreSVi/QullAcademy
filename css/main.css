@@ -384,14 +384,14 @@ footer :hover {
     width: 180px;
     height: auto;
   }
-  #carouselPortada {
+  .img-portada {
     display: none;
   }
   .img-portada-mobile {
     display: block;
   }
-  .img-portada {
-    height: 250px !important;
+  .img-portada, #carouselPortada {
+    height: auto !important;
     width: 100vw !important;
     margin-left: 0px !important;
   }
