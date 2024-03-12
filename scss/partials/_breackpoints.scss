@@ -41,9 +41,9 @@
         display: block;
       }
       .img-portada{
-        height: 300px !important;
-        width: auto !important;
-        margin-left: -100px !important;
+        height: 250px !important;
+        width: 100vw !important;
+        margin-left: 0px !important;
       }
       .title-portada{
         color: map-get($paleta_colores, background_primary_color) !important;
