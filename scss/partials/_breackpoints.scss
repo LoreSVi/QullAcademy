@@ -9,7 +9,7 @@
     
 }
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
     .card-form {
         border-width: 4px !important;
         display: flex;
@@ -57,6 +57,9 @@
       }
       .subtitleprod{
         font-size: 1.3rem;
+      }
+      .hidden{
+        display: none !important;
       }
 }
 
