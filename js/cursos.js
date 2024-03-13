@@ -17,7 +17,11 @@ function cargarCurso(hash, card) {
             document.querySelector("#basic1").classList.add("active");
             document.querySelector("#basic2").classList.remove("active");
             document.querySelector("#basic3").classList.remove("active");
-            if (card === 'b1-1') {
+            if(card===''){
+                document.querySelector("#b1-1").classList.remove("hidden");
+                document.querySelector("#b1-2").classList.remove("hidden");
+                document.querySelector("#b1-3").classList.remove("hidden");
+            }else if (card === 'b1-1') {
                 console.log('entro en b1-1')
                 document.querySelector("#b1-1").classList.remove("hidden");
                 document.querySelector("#b1-2").classList.add("hidden");
@@ -69,7 +73,11 @@ function cargarCurso(hash, card) {
             // Activa el carrusel o realiza alguna otra acción
             document.querySelector("#advanced1").classList.add("active");
             document.querySelector("#advanced2").classList.remove("active");
-            if (card === 'a1-1') {
+            if(card===''){
+                document.querySelector("#a1-1").classList.remove("hidden");
+                document.querySelector("#a1-2").classList.remove("hidden");
+                document.querySelector("#a1-3").classList.remove("hidden");
+            }else if (card === 'a1-1') {
                 console.log('entro en a1-1')
                 document.querySelector("#a1-1").classList.remove("hidden");
                 document.querySelector("#a1-2").classList.add("hidden");
@@ -102,7 +110,11 @@ function cargarCurso(hash, card) {
         } else if (hash === '#workshop1' || hash === '#workshop') {
             document.querySelector("#workshop1")?.classList.add("active");
             document.querySelector("#workshop2")?.classList.remove("active");
-            if (card === 'w1-1') {
+            if(card===''){
+                document.querySelector("#w1-1").classList.remove("hidden");
+                document.querySelector("#w1-2").classList.remove("hidden");
+                document.querySelector("#w1-3").classList.remove("hidden");
+            }else if (card === 'w1-1') {
                 document.querySelector("#w1-1").classList.remove("hidden");
                 document.querySelector("#w1-2").classList.add("hidden");
                 document.querySelector("#w1-3").classList.add("hidden");
